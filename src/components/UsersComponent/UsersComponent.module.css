@@ -1,0 +1,52 @@
+.container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+}
+
+.loading {
+    font-size: 18px;
+    color: #555;
+}
+
+.userList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.userItem {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.userItem a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.userItem a:hover {
+    text-decoration: underline;
+}
+
+.userItem p {
+    font-size: 16px;
+    color: #666;
+}
+

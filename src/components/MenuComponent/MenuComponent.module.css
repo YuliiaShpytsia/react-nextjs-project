@@ -1,0 +1,78 @@
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a,
+.menu li button {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 15px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.menu li a:hover,
+.menu li button:hover {
+    color: #007bff;
+}
+
+.user-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-logo span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.placeholder {
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+}
+
+.logoutButton {
+    background-color: #ff4d4f;
+    color: white;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.logoutButton:hover {
+    background-color: #d43817;
+}

@@ -1,0 +1,81 @@
+/* RecipesComponent.module.css */
+
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.filterContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filterText {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.resetButton {
+    padding: 5px 10px;
+    background-color: #ff4747;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.resetButton:hover {
+    background-color: #ff1f1f;
+}
+
+.recipeList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipeItem {
+    margin-bottom: 20px;
+}
+
+.recipeLink {
+    font-size: 1.5rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.recipeLink:hover {
+    text-decoration: underline;
+}
+
+.tagsContainer {
+    margin-top: 5px;
+}
+
+.tag {
+    cursor: pointer;
+    margin-right: 10px;
+    color: #007bff;
+    font-size: 1rem;
+}
+
+.tag:hover {
+    text-decoration: underline;
+}
+
+.separator {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.paginationContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}

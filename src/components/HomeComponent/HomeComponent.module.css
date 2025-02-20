@@ -1,0 +1,15 @@
+.message {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.unauthenticated {
+    background-color: #ffcccc;
+    color: #990000;
+}
+
+.authenticated {
+    background-color: #ccffcc;
+    color: #006600;
+}
